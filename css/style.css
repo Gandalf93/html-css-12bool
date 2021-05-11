@@ -5,7 +5,7 @@
     background-color: pink;
     min-height: 100px;
     border: 1px solid black;
-    padding: 15px;
+    padding: 1px;
     text-align: center;
 }
 
@@ -18,8 +18,25 @@
     border: 1px solid pink;
 }
 
+/* MOBILE */
 h2{
     font-size: xx-small;
+}
+
+/* DESKTOP */
+
+@media screen and (max-width: 570px){
+    
+        
+    }
+    .box{
+        background-color: teal;
+    }
+
+    .box-nested{
+        background-color: turquoise;
+        border: teal;
+    }
 }
 
 
