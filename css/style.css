@@ -20,22 +20,24 @@
 
 /* MOBILE */
 h2{
-    font-size: xx-small;
+    font-size: 15px;
 }
 
 /* DESKTOP */
 
 @media screen and (max-width: 570px){
-    
-        
+    h2{
+        font-size: 10px;
     }
+        
+    
     .box{
-        background-color: teal;
+        background-color: turquoise;
     }
 
     .box-nested{
-        background-color: turquoise;
-        border: teal;
+        background-color:teal ;
+        border: 1px solid turquoise;
     }
 }
 
