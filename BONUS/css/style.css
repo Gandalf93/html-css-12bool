@@ -1,0 +1,26 @@
+.box{
+    min-height: 60px;
+    background-color: pink;
+}
+   
+.pink{
+    background-color: pink;
+}
+  
+.box-nested{
+    background-color: rgb(233, 125, 143);
+    min-height: 60px;
+    border: none;
+}
+    
+ .box-nested-black  {
+     border: none;
+     background-color: black;
+     min-height: 60px;
+ } 
+ 
+
+
+
+ 
+
